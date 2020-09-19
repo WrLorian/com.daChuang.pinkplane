@@ -1,0 +1,78 @@
+			.zcdiv1
+			{
+				width: 400px;
+				height: 380px;
+				padding: 20px;
+				background-color:#f2f2f2;
+				border: none;
+				border-radius: 8px;
+				box-shadow: 2px 2px 15px #333333;
+				margin: auto;
+				text-align: center;
+			}
+			.zczt
+			{
+				font-family: 楷体;
+				font-size: 20px;
+				
+			}
+			.inputtext2,.inputpassword2
+			{
+				width: 240px;
+				padding: 7px 7px;
+				margin: 8px 0px;
+				display: inline-block;
+				border: 1px solid #ccc;
+				border-radius: 1px;
+				box-sizing: border-box;
+				border-radius: 5px;
+				box-shadow: 2px 2px 5px #CCCCCC;
+			}
+			.zcdiv2
+			{
+				width: 30%;
+				float: left;
+				height: auto;
+				display: inline;
+				padding-top: 11px;
+				margin-left: 20px;
+			}
+			.zcdiv3
+			{
+				width: 60%;
+				float: left;
+				height: auto;
+				margin: auto;
+				display: inline;
+			}
+			.zcdiv4
+			{
+				width: 60%;
+				float: left;
+				padding-left: 7px;
+				height: auto;
+				text-align: left;
+				display: inline;
+			}
+			.submit1
+			{
+				width: 150px;
+				position: fixed
+				background-color: #87CEFE;
+				color: white;
+				margin-top: 13px;
+				border: none;
+				height: 40px;
+				border-radius: 5px;
+				cursor: pointer;
+				box-shadow: 3px 3px 6px #CCCCCC;
+				font-size: 25px;
+				font-family: 楷体;
+			}
+			
+			.submit1:hover 
+			{
+				background-color: #87CEEB;
+				box-shadow: 3px 3px 6px #888888;
+			}
+			

@@ -1,0 +1,94 @@
+		.inputtext1,.inputpassword1
+		{
+			width: 300px;
+			padding: 12px 20px;
+			margin: 10px 0px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 1px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			box-shadow: 2px 2px 5px #CCCCCC;
+		}
+		.submit1
+		{
+			width: 300px;
+			background-color: #87CEFE;
+			color: white;
+			margin-top: 10px;
+			border: none;
+			height: 40px;
+			border-radius: 5px;
+			cursor: pointer;
+			box-shadow: 3px 3px 6px #CCCCCC;
+			font-size: 25px;
+			font-family: 楷体;
+		}
+
+		.submit1:hover 
+		{
+			background-color: #87CEEB;
+			box-shadow: 3px 3px 6px #888888;
+		}
+		.heigth1
+		{
+			width: 100%;
+			height: 100px;
+		}
+		.drym 
+		{
+			width: 400px;
+			height: 300px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			text-align: center;
+			margin: auto;
+			border: none;
+			border-radius: 8px;
+			box-shadow: 2px 2px 15px #333333;
+		}
+		.drym2
+		{
+			width: 300px;
+			margin: auto;
+		}
+		.ym3
+		{
+			width: 300px;
+			padding: 16px 20px;
+			margin: auto;
+		}
+		.zt1
+		{
+			font-size: 25px;
+			font-family: 楷体;
+		}
+		.drzcdiv1
+		{
+			width: 300px;
+			margin: auto;
+			padding-top: 20px;
+			text-align: left;
+		}
+		.body1
+		{
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			background-attachment: fixed;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			
+			background-position: center 0;
+			background-size: cover;
+			-webkit-background-size: cover;
+			zoom: 1;
+			z-index: -1;
+		}
+		.body2
+		{
+			margin: 0;
+			padding: 0;
+		}
