@@ -5,6 +5,7 @@ import daChuang.pojo.user;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Objects;
 
 public class userService
 {
@@ -19,6 +20,11 @@ public class userService
     public boolean userInsert(user user)
     {
         return userdao.userInsert(user);
+    }
+
+    public boolean isExist(String userName)
+    {
+        return Objects.nonNull(userdao.userSelectByUsername(userName));
     }
 
     /**
@@ -87,8 +93,8 @@ public class userService
      * @param passWord
      * @return
      */
-    public user userSelectByUserUserNameAndPassWord(String userUserName,String passWord)
+    public boolean userSelectByUserUserNameAndPassWord(String userUserName,String passWord)
     {
-        return userdao.userSelectByUserUserNameAndPassword(userUserName, passWord);
+        return Objects.nonNull(userdao.userSelectByUserUserNameAndPassword(userUserName, passWord));
     }
 }

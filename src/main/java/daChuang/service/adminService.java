@@ -5,6 +5,7 @@ import daChuang.pojo.admin;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
+import java.util.Objects;
 
 public class adminService
 {
@@ -68,9 +69,9 @@ public class adminService
      * @param adminPassWord
      * @return
      */
-    public admin adminSelectByAdminUserNameAndAdminPassWord(String adminUserName,String adminPassWord)
+    public boolean adminSelectByAdminUserNameAndAdminPassWord(String adminUserName,String adminPassWord)
     {
-        return admindao.adminSelectByAdminUserNameAndAdminPassWord(adminUserName,adminPassWord);
+        return Objects.nonNull(admindao.adminSelectByAdminUserNameAndAdminPassWord(adminUserName,adminPassWord));
     }
 
     /**
@@ -92,6 +93,15 @@ public class adminService
         return admindao.adminInsert(admin);
     }
 
+    /**
+     * TODO 判断用户名是否存在
+     * @param adminUserName
+     * @return
+     */
+    public boolean isExist(String adminUserName)
+    {
+        return Objects.nonNull(admindao.adminSelectByName(adminUserName));
+    }
     /**
      * TODO 修改Admin信息
      * @param admin
